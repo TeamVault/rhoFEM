@@ -1,6 +1,9 @@
 # About
 This is the GitHub repo of the rhoFEM tool. This tool is used to protect program backward edges during runtime.
 
+## Publication
+https://dl.acm.org/doi/abs/10.1145/3427228.3427246
+
 ## Installation
 
 1. get the llvm gold plugin and follow the installation instructions: https://llvm.org/docs/GoldPlugin.html
