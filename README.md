@@ -1,7 +1,7 @@
-# rhoFEM
+# About
+This is the GitHub repo of the rhoFEM tool. This tool is used to protect program backward edges during runtime.
 
-Installation
-============
+## Installation
 
 1. get the llvm gold plugin and follow the installation instructions: https://llvm.org/docs/GoldPlugin.html
 2. install ld.gold to ```/usr/bin/ld.gold```
@@ -16,7 +16,6 @@ Installation
     export RANLIB=/bin/true
     export LDFLAGS="-fuse-ld=gold -Wl,-plugin-opt=sd-return"
 ```
-Usage
-=====
+## Usage
 
 Compile any project with rhoFEM. If autotooled, make sure that the C/C++ compilers and flags outlined above are used. Lastly, rhoFEM will generate hardened program files.
