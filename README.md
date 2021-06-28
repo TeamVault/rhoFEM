@@ -1,5 +1,5 @@
 # About
-This is the GitHub repo of the rhoFEM tool. This tool is used to protect program backward edges during runtime.
+This is the GitHub repo of the rhoFEM tool. This tool is used to protect program backward edges (i.e., program function returns) during runtime. In other words, it is enforced that the callees return at the right address next to the address from it was called in the first place. Thus, respecting the caller/callee calling convention.
 
 ## Publication
 https://dl.acm.org/doi/abs/10.1145/3427228.3427246
